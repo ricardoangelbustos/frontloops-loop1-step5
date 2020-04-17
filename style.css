@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    background-color: white;
+    margin: 100px auto;
+    width: 30%;
+    height: 430px;
+    border-radius: 5px;
+}
+.cities{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+.origin{
+    line-height: 40px;
+}
+.origin h2{
+    font-size: 50px;
+    font-family: "Prompt", sans-serif;
+    color: #3b8acf;
+}
+.origin h3{
+    font-size: 13px;
+    color: #b2afae;
+}
+.destination{
+    line-height: 40px;
+}
+.destination h2{
+    font-size: 50px;
+    font-family: "Prompt", sans-serif;
+    color: #3b8acf;
+}
+.destination h3{
+    font-size: 13px;
+    color: #b2afae;
+}
+.flightdata{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 100px;
+    box-sizing: border-box;
+}
+.flight h5{
+    color: #b2afae;
+}
+.gate h5{
+    color: #b2afae;
+}
+.seat h5{
+    color: #b2afae;
+}
+.passenger h5{
+    color: #b2afae;
+}
+.class h5{
+    color: #b2afae;
+}
+.time h5{
+    color: #b2afae;
+}
+.passengerdata{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+.data{
+    width: 50%;
+    height: 180px;
+}
+.passenger{
+    padding-bottom: 30px;
+}
+.class{
+    padding-bottom: 30px;
+}
+.qr{
+    padding-left: 15px;
+}
+.qr img{
+    width: 90%;
+}
+@media (max-width: 945px){
+    .origin h2{
+        font-size: 40px;
+    }
+    .destination h2{
+        font-size: 40px;
+    }
+}
+@media (max-width: 782px){
+    .origin h2{
+        font-size: 38px;
+    }
+    .origin h3{
+        display: none;
+    }
+    .destination h2{
+        font-size: 38px;
+    }
+    .destination h3{
+        display: none;
+    }
+}
+@media (max-width: 685px){
+    .container{
+        height: 300px;
+    }
+    .cities{
+        display: none;
+    }
+    .origin h2{
+        display: none;
+    }
+    .destination h2{
+        display: none;
+    }
+    .qr{
+        display: none;
+    }
+}
+@media (max-width: 681px){
+    .flightdata{
+        padding: 0;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 509px){
+    .container{
+        height: 400px;
+    }
+    .flightdata{
+        padding: 0;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+    }
+}
