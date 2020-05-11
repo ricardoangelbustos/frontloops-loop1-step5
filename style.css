@@ -102,6 +102,9 @@ body{
     width: 90%;
 }
 @media (max-width: 945px){
+    .container{
+        width: 60%;
+    }
     .origin h2{
         font-size: 40px;
     }
@@ -153,7 +156,7 @@ body{
 }
 @media (max-width: 509px){
     .container{
-        height: 400px;
+        height: 350px;
     }
     .flightdata{
         padding: 0;
